@@ -1,0 +1,47 @@
+/* Font */
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+header img {
+  width: 100%;
+  height: auto;
+}
+.logo{
+  font-size: 34px;
+  font-weight: 900;
+  color: #4E47FF;
+}
+.btn-signup{
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #4E47FF;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.btn-stay-focused{
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #4E47FF;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.welcome-text{
+  font-size: 65px;
+  font-weight: bold;
+  width: 905px;
+  text-align: center;
+  color: #252432;
+}
