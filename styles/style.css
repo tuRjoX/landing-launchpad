@@ -15,6 +15,7 @@
 .text-center {
   text-align: center;
 }
+/* Header */
 nav{
   display: flex;
   align-items: center;
@@ -43,32 +44,36 @@ header {
   font-weight: 900;
   color: #4E47FF;
 }
-.btn-signup{
-  font-weight: bold;
-  font-size: 16px;
-  color: #FFFFFF;
-  background-color: #4E47FF;
-  padding: 12px 36px;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
-}
-.btn-stay-focused{
-  font-weight: bold;
-  font-size: 16px;
-  color: #FFFFFF;
-  background-color: #4E47FF;
-  padding: 12px 36px;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
-}
 .welcome-text{
   font-size: 65px;
   font-weight: bold;
   width: 905px;
   text-align: center;
   color: #252432;
+}
+/* Button */
+.btn {
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #4E47FF;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: 
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #FFFFFF;
+  color: #4E47FF;
+  border-color: #4E47FF;
+  box-shadow: 0 8px 20px rgba(78, 71, 255, 0.15);
 }
 /* Preview Section */
 .preview-section{
@@ -201,7 +206,7 @@ header {
   align-items: center;
   gap: 20px;
 }
-.image-container2 .btn-signup {
+.image-container2 .btn {
   margin-bottom: 20px; 
 }
 .image-container2 img {
@@ -226,7 +231,7 @@ header {
 .form-group input[type="text"],
 .form-group input[type="email"],
 .form-group textarea,
-.form-container .btn-signup {
+.form-container .btn {
   width: 497px;
   padding: 12px;
   border: 1px solid #ccc;
