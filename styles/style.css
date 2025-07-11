@@ -172,3 +172,39 @@ header {
   font-size: 14px;
   margin: 4px 0 0 0;
 }
+/* Get Started Section */
+.get-started-section {
+  margin: 116px auto;
+  border-radius: 14px;
+  background-color: white;
+  width: 1140px;
+  height: 697px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 14px;
+}
+.get-started-section h2 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+}
+.get-started-section p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.image-container2 {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.image-container2 .btn-signup {
+  margin-bottom: 20px; 
+}
+.image-container2 img {
+  width: 840px;;
+  border-radius: 48px;
+}
