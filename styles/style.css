@@ -242,3 +242,47 @@ header {
   margin-bottom: 8px;
   font-weight: bold;
 }
+/* Footer */
+footer {
+  background-color: white;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 14px;
+  font-family: 'Inter', sans-serif;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer h1 {
+  font-size: 100px; 
+  font-weight: 900;
+  color: #4E47FF;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+footer p {
+  font-size: 16px;
+  color: #8987A1;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+.footer-links {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-links p {
+  margin: 0;
+  font-size: 16px;
+  cursor: pointer;
+  color: #8987A1;
+  transition: color 0.3s ease;
+}
+.footer-links p:hover {
+  color: #4E47FF;
+}
