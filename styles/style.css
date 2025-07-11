@@ -208,3 +208,37 @@ header {
   width: 840px;;
   border-radius: 48px;
 }
+/* Get in Touch Section */
+.get-in-touch-section {
+  display: flex;
+  padding: 92px auto;
+  text-align: center;
+  justify-content: center;
+  gap: 115px;
+}
+.get-in-touch-section h1 {
+  font-size: 97px;
+  font-weight: bold;
+  color: #000000;
+  width: 528px;
+  text-align: left;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea,
+.form-container .btn-signup {
+  width: 497px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  resize: none;
+}
+.form-group label {
+  text-align: left;
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
