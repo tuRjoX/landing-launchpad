@@ -76,37 +76,37 @@ header {
   box-shadow: 0 8px 20px rgba(78, 71, 255, 0.15);
 }
 /* Preview Section */
-.preview-section{
+.action-section{
   display: flex;
   margin-top: 116px;
   justify-content: center;
   gap: 220px;
 }
-.preview-section h2{
+.action-section h2{
   font-size: 42px;
   font-weight: bold;
   color: #252432;
   margin-top: 20px;
 }
-.preview-section p{
+.action-section p{
   font-size: 24px;
   font-weight: regular;
   width: 517px;
   color: rgba(37, 36, 50, 0.5);
   margin-top: 10px;
 }
-.preview-section img{
+.action-section img{
   border-radius: 48px;
 }
 /* Productive Section */
-.productive-users-section{
+.productive-user-section{
   margin: 116px auto;
   border-radius: 24px;
   background-color: rgba(78, 71, 255, 0.1);
   width: 1140px;
   height: 306px;
 }
-.productive-users-section h3{
+.productive-user-section h3{
   font-size: 38px;
   font-weight: bold;
   color: #252432;
@@ -178,7 +178,7 @@ header {
   margin: 4px 0 0 0;
 }
 /* Get Started Section */
-.get-started-section {
+.template-section {
   margin: 116px auto;
   border-radius: 14px;
   background-color: white;
@@ -188,13 +188,13 @@ header {
   padding: 20px;
   border-radius: 14px;
 }
-.get-started-section h2 {
+.template-section h2 {
   margin-bottom: 20px;
   font-size: 50px;
   font-weight: bold;
   color: #000000;
 }
-.get-started-section p {
+.template-section p {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -214,14 +214,14 @@ header {
   border-radius: 48px;
 }
 /* Get in Touch Section */
-.get-in-touch-section {
+.newsletter-section {
   display: flex;
   padding: 92px auto;
   text-align: center;
   justify-content: center;
   gap: 115px;
 }
-.get-in-touch-section h1 {
+.newsletter-section h1 {
   font-size: 97px;
   font-weight: bold;
   color: #000000;
@@ -234,7 +234,7 @@ header {
 .form-container .btn {
   width: 497px;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 2px solid rgba(214, 221, 237, 1);
   border-radius: 10px;
   font-size: 16px;
   margin-bottom: 16px;
